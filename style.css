@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=My+Soul&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0; 
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    background-color: #243a49;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("./assets/images/banner.png");
+    background-size: cover;
+    background-blend-mode: soft-l;
+    border-bottom: 1px solid #33A8DB80;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 37rem;
+    
+}
+
+main{
+    background-image: url("./assets/images/woman-code.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-content button{
+    color: #31A8DD;
+    height: 3rem;
+    width: 22rem;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #1472B7;
+    padding: 16px 32px;
+    letter-spacing: 4px;
+}
+
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #1472B7;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.banner p{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    margin: 16px 0 24px;
+    color: white;
+    width: 42rem;
+}
+
