@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: #243a49;
+    background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("./assets/images/banner.png");
     background-size: cover;
     background-blend-mode: soft-l;
@@ -19,6 +19,8 @@ header{
     height: 37rem;
     
 }
+
+
 
 main{
     background-image: url("./assets/images/woman-code.png");
@@ -55,5 +57,48 @@ main{
     margin: 16px 0 24px;
     color: white;
     width: 42rem;
+}
+
+#course-content{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 33rem;    
+}
+
+#course-content h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    
+}
+
+#course-content p{
+    width: 49rem;
+}
+
+span{
+    color: #33A8DB;
+}
+
+.module{
+    background-color: rgb(37, 33, 33);
+    border-style: solid;
+    border-radius: 2rem;
+    border-color:#1472B7;
+    border-width: 1px;
+    width: 34rem;
+    height: 3rem;
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
